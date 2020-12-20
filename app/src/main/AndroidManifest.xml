@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AlzheimerMobile">
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".ProfileUserActivity"></activity>
+        <activity android:name=".LogInActivity" />
+        <activity android:name=".RegisterActivity" />
         <activity
             android:name=".AboutActivity"
             android:parentActivityName=".MainActivity" />

@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
+
     fun Click(view: View) {
         val intent = Intent(this@MainActivity, AboutActivity::class.java)
         startActivity(intent)
@@ -19,6 +20,11 @@ class MainActivity : AppCompatActivity() {
 
     fun clickReg(view: View) {
         val intent = Intent(this@MainActivity, RegisterActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun ClickLog(view: View) {
+        val intent = Intent(this@MainActivity, LogInActivity::class.java)
         startActivity(intent)
     }
 }

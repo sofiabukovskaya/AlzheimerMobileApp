@@ -49,6 +49,7 @@
         android:layout_marginBottom="83dp"
         android:fontFamily="@font/averia_sans_libre_light"
         android:text="Login"
+        android:onClick="ClickLog"
         android:textSize="18sp"
         app:backgroundTint="#717274"
         app:layout_constraintBottom_toTopOf="@+id/AboutButton"
