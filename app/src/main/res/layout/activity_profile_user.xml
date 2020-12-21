@@ -4,15 +4,115 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileUserActivity">
+    tools:context=".ProfileUserActivity"
+    android:background="#717274">
 
-    <Button
-        android:id="@+id/logout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="LogOut"
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="178dp"
+        android:layout_height="157dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015"
+        app:srcCompat="@drawable/profile_avatar_png_free_image" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="165dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitCenter"
+        android:onClick="goToTestPage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.215"
+        app:srcCompat="@drawable/test" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="165dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.215"
+        app:srcCompat="@drawable/sticky_notes" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="165dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="236dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.424"
+        app:srcCompat="@drawable/drugs" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="165dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="236dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.424"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/textViewSurname"
+        android:layout_width="144dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="188dp"
+        android:textAlignment="textEnd"
+        android:textColor="#d6d7d7"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="144dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="188dp"
+        android:textAlignment="textStart"
+        android:textColor="#d6d7d7"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="193dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="248dp"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:textAlignment="center"
+        android:textColor="#d6d7d7"
+        android:textSize="25dp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -47,10 +47,8 @@ class LogInActivity : AppCompatActivity() {
             auth!!.signInWithEmailAndPassword(email1!!, password1!!)
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
-                        // Sign in success, update UI with signed-in user's information
                         updateUI()
                     } else {
-                        // If sign in fails, display a message to the user.
                         Toast.makeText(this@LogInActivity, "Authentication failed.",
                             Toast.LENGTH_SHORT).show()
                     }

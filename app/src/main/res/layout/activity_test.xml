@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity"
+    android:background="#bbb2b3">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbb2b3">
+
+    <TextView
+        android:id="@+id/textFirst"
+        android:layout_width="200dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="MINI-MENTAL STATE EXAMINATION"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="405dp"
+        android:layout_height="44dp"
+        android:layout_below="@id/textFirst"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/line_png_16814" />
+
+    <TextView
+        android:id="@+id/textnext"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/line"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="It is a 30-point questionnaire that is used extensively in clinical and research settings to measure cognitive impairment."
+        android:textAlignment="center"
+        android:textSize="20dp" />
+    <ImageView
+        android:id="@+id/line2"
+        android:layout_width="405dp"
+        android:layout_height="44dp"
+        android:layout_below="@id/textnext"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/line_png_16814" />
+
+    <TextView
+        android:id="@+id/textWhat"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/line2"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="What is the?"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/textviewfirst"
+        android:layout_below="@id/textWhat"
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:hint="Year as a number"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textviewsecond"
+        android:layout_below="@id/textviewfirst"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Season"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textviewthird"
+        android:layout_below="@id/textviewsecond"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Day as a number"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textview4"
+        android:layout_below="@id/textviewthird"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Month as a number"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textview5"
+        android:layout_below="@id/textview4"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Date"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:id="@+id/textWhere"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="Where are we now?"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+    <EditText
+        android:id="@+id/textview6"
+        android:layout_below="@id/textWhere"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Country"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textview7"
+        android:layout_below="@id/textview6"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Region"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textview8"
+        android:layout_below="@id/textview7"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="City"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textview9"
+        android:layout_below="@id/textview8"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Home Address"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textview10"
+        android:layout_below="@id/textview9"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Number of the building"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="Name 3 unrelated objects and remember them for later"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+    <EditText
+        android:id="@+id/textview11"
+        android:layout_below="@id/textName"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="First object"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textview12"
+        android:layout_below="@id/textview11"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Second object"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textview13"
+        android:layout_below="@id/textview12"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Third object"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/textCount"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="Count backward from 100 by seven"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+    <EditText
+        android:id="@+id/textview14"
+        android:layout_below="@id/textCount"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="First number"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textview15"
+        android:layout_below="@id/textview14"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Second number"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textview16"
+        android:layout_below="@id/textview15"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Third number"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textview17"
+        android:layout_below="@id/textview16"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Fourth number"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textview18"
+        android:layout_below="@id/textview17"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Fifth number"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/textThreeThings"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview18"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="Name the three things asked to remember earlier"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+    <EditText
+        android:id="@+id/textview19"
+        android:layout_below="@id/textThreeThings"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="First object"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textview20"
+        android:layout_below="@id/textview19"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Second object"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textview21"
+        android:layout_below="@id/textview20"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Third object"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/textTwoThings"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview21"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="Name two things that you use for writing"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+    <EditText
+        android:id="@+id/textview22"
+        android:layout_below="@id/textTwoThings"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="First object"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/textview23"
+        android:layout_below="@id/textview22"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Second object"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/textRepeat"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview23"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="Repeat the phrase &quot;No ifs, ands, or buts&quot;"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+    <EditText
+        android:id="@+id/textview24"
+        android:layout_below="@id/textRepeat"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Repeat Phrase"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/textFollow"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview24"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="Follow next instructions:"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textFollow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="Take the paper in your right hand"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="Fold it in half"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+    <CheckBox
+        android:id="@+id/checkbox3"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="Put it on the floor"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/textDo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkbox3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="Do the next:"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+    <CheckBox
+        android:id="@+id/checkbox4"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textDo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="Close your eyes"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/textMakeUp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkbox4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="Make up and write a sentence about anything with the length of 5 words"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+    <EditText
+        android:id="@+id/textview25"
+        android:layout_below="@id/textMakeUp"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:hint="Sentence"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/textCopy"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview25"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="Please copy this picture"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+    <ImageView
+        android:id="@+id/imagetest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textCopy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/mmse_pentagons"/>
+    <CheckBox
+        android:id="@+id/checkbox5"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagetest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:text="Picture has been successfully drawn"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="176dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/checkbox5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Submit" />
+</RelativeLayout>
+
+
+</ScrollView>
