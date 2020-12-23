@@ -9,18 +9,77 @@
 
     <TextView
         android:id="@+id/PatientName"
-        android:layout_width="91dp"
-        android:layout_height="21dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="128dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="36dp"
         android:text="Patient name:"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintHorizontal_bias="0.091"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#65E4A6"/>
+    <TextView
+        android:id="@+id/patientName"
+        android:layout_width="152dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="80dp"
+        android:text="Patient surname:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/patientName2"
+        android:layout_width="152dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="128dp"
+        android:text="Patient e-mail:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textviewpationtname"
+        android:layout_width="112dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="32dp"
+        android:text="sdfdfd"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.702"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textviewpationtsurname"
+        android:layout_width="112dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="80dp"
+        android:text="sdfdsfd"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.702"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textviewpationtemail"
+        android:layout_width="185dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="132dp"
+        android:text="dddddd@gmail.com"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
