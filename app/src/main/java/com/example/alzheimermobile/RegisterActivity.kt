@@ -1,6 +1,7 @@
 package com.example.alzheimermobile
 
 import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
 import android.text.TextUtils
 import android.util.Log
@@ -12,6 +13,8 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.ktx.Firebase
+import com.klinker.android.link_builder.Link
+import com.klinker.android.link_builder.LinkBuilder
 
 
 class RegisterActivity : AppCompatActivity() {
@@ -63,7 +66,25 @@ class RegisterActivity : AppCompatActivity() {
               createNewAccount()
 
         }
+         linkSetup()
+    }
 
+    private fun linkSetup() {
+        val LoginLink = Link("Login Page!")
+            .setTextColor(Color.parseColor("#259B24"))
+            .setTextColorOfHighlightedLink(Color.parseColor("#0D3D0C"))
+            .setHighlightAlpha(.4f)
+            .setBold(true)
+            .setOnClickListener {
+                val intent = Intent(this@RegisterActivity, LogInActivity::class.java)
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+                startActivity(intent)
+            }
+        val demoText = findViewById<View>(R.id.textViewLogo) as TextView
+
+        LinkBuilder.on(demoText)
+            .addLink(LoginLink)
+            .build()
     }
 
     private fun createNewAccount() {

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_us">Про нас</string>
+    <string name="what_is_Alz">Що таке хвороба Альцгеймера?</string>
+    <string name="definition"> Альцгеймер - це тип деменції, який впливає на пам’ять, мислення та поведінку. Згодом симптоми посилюються досить сильно, щоб заважати виконувати щоденні завдання.</string>
+    <string name="what_sugg">Що ми пропонуємо</string>
+    <string name="our_serv">Наша послуга полягає в допомозі людям з хворобою Альцгеймера провести своє життя без будь-якого страху. Всі функції створені для спостереження та контролю ситуації, щоб бути впевненим, що все складається в хорошому напрямку.</string>
+    <string name="donthaveacc">У вас ще немає облікового запису? Перейдіть на сторінку реєстрації!</string>
+    <string name="logIn">Увійти</string>
+    <string name="email">Електронна пошта</string>
+    <string name="password">Пароль</string>
+    <string name="welcome">Ласкаво просимо!</string>
+    <string name="reg">Реєстрація</string>
+    <string name="name">Ім’я</string>
+    <string name="surname">Прізвище</string>
+    <string name="username">Логін</string>
+    <string name="haveAAcc">Вже є аккаунт? Перейдіть на сторінку входу!</string>
+    <string name="miniText">Мінімальне бстеження психічного стану MMSE</string>
+    <string name="textAbout">Це 30-бальний тест, який широко використовується в клінічних та дослідницьких умовах для вимірювання когнітивних порушень.</string>
+    <string name="whatIs">Що за?</string>
+    <string name="year">Рік як число</string>
+    <string name="season">Сезон</string>
+    <string name="day">День як число</string>
+    <string name="month">Місяць як число</string>
+    <string name="date">Дата</string>
+    <string name="whereAreYou">Де ми зараз знаходимось?</string>
+    <string name="country">Країна</string>
+    <string name="region">Область</string>
+    <string name="city">Місто</string>
+    <string name="homeaddress">Домашня адреса</string>
+    <string name="numberOfTheBuild">Номер будівлі</string>
+    <string name="objectthird">Назвіть 3 непов’язані об’єкти і запам’ятайте їх на потім</string>
+    <string name="firstobj">Перший об’єкт</string>
+    <string name="secondobj">Другий об’єкт</string>
+    <string name="thirdobj">Третій об’єкт</string>
+    <string name="count">Порахуйте від 100 до семи</string>
+    <string name="firstnumb">Перше число</string>
+    <string name="secondnumb">Друге число</string>
+    <string name="thirdnumb">Третє число</string>
+    <string name="fourthnumb">Четверте число</string>
+    <string name="fifthnumb">П’яте число</string>
+    <string name="namethethree">Назвіть три речі, про які потрібно було пам’ятати раніше</string>
+    <string name="namethetwo">Назвіть дві речі, які ви використовуєте для написання</string>
+    <string name="repeatthephrase">Повторіть фразу ’No ifs, ands, or buts’</string>
+    <string name="repeattheph">Повторіть фразу</string>
+    <string name="follow">Дотримуйтесь наступних вказівок:</string>
+    <string name="paper">Візьміть папір у праву руку</string>
+    <string name="fold">Складіть його навпіл</string>
+    <string name="put">Покладіть його на підлогу</string>
+    <string name="dothis">Зробіть наступне: </string>
+    <string name="closeyou">Заплющте очі</string>
+    <string name="makeupwr">Складіть і напишіть речення про що завгодно довжиною 5 слів</string>
+    <string name="sentence">Речення</string>
+    <string name="copypict">Будь-ласка, перемалюйте це речення</string>
+    <string name="picturesucc">Малюнок успішно намальований</string>
+    <string name="submit">Відправити</string>
+
+</resources>

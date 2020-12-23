@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AlzheimerMobile">
-        <activity android:name=".TestActivity"></activity>
+        <activity android:name=".NotesActivity" />
+        <activity android:name=".AddNoteActivity"></activity>
+        <activity android:name=".DoctorProfileActivity" />
+        <activity android:name=".ToDoActivity" /> <!-- <activity -->
+        <!-- android:name=".oDoActivity" -->
+        <!-- android:label="@string/title_activity_to_do" -->
+        <!-- android:theme="@style/Theme.AlzheimerMobile.NoActionBar" /> -->
+        <!-- <activity android:name=".ToDoActivty" /> -->
+        <activity android:name=".TestActivity" />
         <activity android:name=".ProfileUserActivity" />
         <activity android:name=".LogInActivity" />
         <activity android:name=".RegisterActivity" />

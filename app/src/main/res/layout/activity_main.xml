@@ -9,13 +9,13 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="214dp"
-        android:layout_height="176dp"
+        android:layout_width="280dp"
+        android:layout_height="217dp"
         android:layout_marginStart="75dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="74dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
@@ -29,7 +29,7 @@
         android:layout_marginEnd="131dp"
         android:layout_marginBottom="355dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Welcome!"
+        android:text="@string/welcome"
         android:textColor="#414449"
         android:textSize="45sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,7 +37,7 @@
         app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.505" />
 
     <Button
         android:id="@+id/LoginButton"
@@ -48,7 +48,7 @@
         android:layout_marginEnd="31dp"
         android:layout_marginBottom="83dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Login"
+        android:text="@string/logIn"
         android:onClick="ClickLog"
         android:textSize="18sp"
         app:backgroundTint="#717274"
@@ -67,7 +67,7 @@
         android:layout_marginBottom="83dp"
         android:fontFamily="@font/averia_sans_libre_light"
         android:onClick="clickReg"
-        android:text="Registration"
+        android:text="@string/reg"
         android:textSize="17sp"
         app:backgroundTint="#717274"
         app:layout_constraintBottom_toTopOf="@+id/AboutButton"
@@ -82,7 +82,7 @@
         android:layout_marginEnd="122dp"
         android:layout_marginBottom="75dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="About us"
+        android:text="@string/about_us"
         android:onClick="Click"
         android:textSize="18sp"
         app:backgroundTint="#717274"

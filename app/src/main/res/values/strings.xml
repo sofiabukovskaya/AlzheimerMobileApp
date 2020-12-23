@@ -1,3 +1,59 @@
 <resources>
-    <string name="app_name">AlzheimerMobile</string>
+    <string name="app_name" translatable="false">AlzheimerMobile</string>
+    <string name="about_us">About us</string>
+    <string name="what_is_Alz">What is Alzheimer’s Disease?</string>
+    <string name="definition"> Alzheimer’s is a type of dementia that affects memory, thinking and behavior.  Symptoms eventually grow severe enough to interfere with daily tasks.</string>
+    <string name="what_sugg">What we suggest</string>
+    <string name="our_serv">Our service is about helping the Alzheimer’s people to spend their lives without any fear. All features are made for observing and controlling the situation to be sure that everything goes in a good way.</string>
+    <string name="donthaveacc">Don’t have account yet? Go to Registration page!</string>
+    <string name="logIn">Log In</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="welcome">Welcome!</string>
+    <string name="reg">Registration</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="username">Username</string>
+    <string name="haveAAcc">Already have an account? Go to Login Page!</string>
+    <string name="miniText">MINI-MENTAL STATE EXAMINATION</string>
+    <string name="textAbout">It is a 30-point questionnaire that is used extensively in clinical and research settings to measure cognitive impairment.</string>
+    <string name="whatIs">What is the?</string>
+    <string name="year">Year as a number</string>
+    <string name="season">Season</string>
+    <string name="day">Day as a number</string>
+    <string name="month">Month as a number</string>
+    <string name="date">Date</string>
+    <string name="whereAreYou">Where are we now?</string>
+    <string name="country">Country</string>
+    <string name="region">Region</string>
+    <string name="city">City</string>
+    <string name="homeaddress">Home address</string>
+    <string name="numberOfTheBuild">Number of the building</string>
+    <string name="objectthird">Name 3 unrelated objects and remember them for later</string>
+    <string name="firstobj">First object</string>
+    <string name="secondobj">Second object</string>
+    <string name="thirdobj">Third object</string>
+    <string name="count">Count backward from 100 by seven</string>
+    <string name="firstnumb">First number</string>
+    <string name="secondnumb">Second number</string>
+    <string name="thirdnumb">Third number</string>
+    <string name="fourthnumb">Fourth number</string>
+    <string name="fifthnumb">Fifth number</string>
+    <string name="namethethree">Name the three things asked to remember earlier</string>
+    <string name="namethetwo">Name two things that you use for writing</string>
+    <string name="repeatthephrase">Repeat the phrase &quot;No ifs, ands, or buts&quot;</string>
+    <string name="repeattheph">Repeat Phrase</string>
+    <string name="follow">Follow next instructions:</string>
+    <string name="paper">Take the paper in your right hand</string>
+    <string name="fold">Fold it in half</string>
+    <string name="put">Put it on the floor</string>
+    <string name="dothis">Do the next:</string>
+    <string name="closeyou">Close your eyes</string>
+    <string name="makeupwr">Make up and write a sentence about anything with the length of 5 words</string>
+    <string name="sentence">Sentence</string>
+    <string name="copypict">Please copy this picture</string>
+    <string name="picturesucc">Picture has been successfully drawn</string>
+    <string name="submit">Submit</string>
+
+
 </resources>

@@ -18,7 +18,7 @@
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="MINI-MENTAL STATE EXAMINATION"
+        android:text="@string/miniText"
         android:textAlignment="center"
         android:textSize="25dp"
         android:textStyle="bold" />
@@ -38,7 +38,7 @@
         android:layout_below="@+id/line"
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="It is a 30-point questionnaire that is used extensively in clinical and research settings to measure cognitive impairment."
+        android:text="@string/textAbout"
         android:textAlignment="center"
         android:textSize="20dp" />
     <ImageView
@@ -56,7 +56,7 @@
         android:layout_below="@+id/line2"
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="What is the?"
+        android:text="@string/whatIs"
         android:textAlignment="center"
         android:textSize="25dp"
         android:textStyle="bold|italic" />
@@ -66,7 +66,7 @@
         android:layout_below="@id/textWhat"
         android:layout_marginTop="10dp"
         android:layout_width="350dp"
-        android:hint="Year as a number"
+        android:hint="@string/year"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -75,7 +75,7 @@
         android:layout_below="@id/textviewfirst"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Season"
+        android:hint="@string/season"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -84,7 +84,7 @@
         android:layout_below="@id/textviewsecond"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Day as a number"
+        android:hint="@string/day"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -93,7 +93,7 @@
         android:layout_below="@id/textviewthird"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Month as a number"
+        android:hint="@string/month"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -102,7 +102,7 @@
         android:layout_below="@id/textview4"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Date"
+        android:hint="@string/date"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -115,7 +115,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Where are we now?"
+        android:text="@string/whereAreYou"
         android:textAlignment="center"
         android:textSize="25dp"
         android:textStyle="bold|italic" />
@@ -124,7 +124,7 @@
         android:layout_below="@id/textWhere"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Country"
+        android:hint="@string/country"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -133,7 +133,7 @@
         android:layout_below="@id/textview6"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Region"
+        android:hint="@string/region"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -142,7 +142,7 @@
         android:layout_below="@id/textview7"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="City"
+        android:hint="@string/city"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -151,7 +151,7 @@
         android:layout_below="@id/textview8"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Home Address"
+        android:hint="@string/homeaddress"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -160,7 +160,7 @@
         android:layout_below="@id/textview9"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Number of the building"
+        android:hint="@string/numberOfTheBuild"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -172,7 +172,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Name 3 unrelated objects and remember them for later"
+        android:text="@string/objectthird"
         android:textAlignment="center"
         android:textSize="25dp"
         android:textStyle="bold|italic" />
@@ -181,7 +181,7 @@
         android:layout_below="@id/textName"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="First object"
+        android:hint="@string/firstobj"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -190,7 +190,7 @@
         android:layout_below="@id/textview11"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Second object"
+        android:hint="@string/secondobj"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -199,7 +199,7 @@
         android:layout_below="@id/textview12"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Third object"
+        android:hint="@string/thirdobj"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -211,7 +211,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Count backward from 100 by seven"
+        android:text="@string/count"
         android:textAlignment="center"
         android:textSize="25dp"
         android:textStyle="bold|italic" />
@@ -220,7 +220,7 @@
         android:layout_below="@id/textCount"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="First number"
+        android:hint="@string/firstnumb"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -229,7 +229,7 @@
         android:layout_below="@id/textview14"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Second number"
+        android:hint="@string/secondnumb"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -238,7 +238,7 @@
         android:layout_below="@id/textview15"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Third number"
+        android:hint="@string/thirdnumb"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -247,7 +247,7 @@
         android:layout_below="@id/textview16"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Fourth number"
+        android:hint="@string/fourthnumb"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -256,7 +256,7 @@
         android:layout_below="@id/textview17"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Fifth number"
+        android:hint="@string/fifthnumb"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -268,7 +268,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Name the three things asked to remember earlier"
+        android:text="@string/namethethree"
         android:textAlignment="center"
         android:textSize="25dp"
         android:textStyle="bold|italic" />
@@ -277,7 +277,7 @@
         android:layout_below="@id/textThreeThings"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="First object"
+        android:hint="@string/firstobj"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -286,7 +286,7 @@
         android:layout_below="@id/textview19"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Second object"
+        android:hint="@string/secondobj"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -295,7 +295,7 @@
         android:layout_below="@id/textview20"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Third object"
+        android:hint="@string/thirdobj"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -307,7 +307,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Name two things that you use for writing"
+        android:text="@string/namethetwo"
         android:textAlignment="center"
         android:textSize="25dp"
         android:textStyle="bold|italic" />
@@ -316,7 +316,7 @@
         android:layout_below="@id/textTwoThings"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="First object"
+        android:hint="@string/firstobj"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -325,7 +325,7 @@
         android:layout_below="@id/textview22"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Second object"
+        android:hint="@string/secondobj"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -337,7 +337,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Repeat the phrase &quot;No ifs, ands, or buts&quot;"
+        android:text="@string/repeatthephrase"
         android:textAlignment="center"
         android:textSize="25dp"
         android:textStyle="bold|italic" />
@@ -346,7 +346,7 @@
         android:layout_below="@id/textRepeat"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Repeat Phrase"
+        android:hint="@string/repeattheph"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -358,7 +358,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Follow next instructions:"
+        android:text="@string/follow"
         android:textAlignment="center"
         android:textSize="25dp"
         android:textStyle="bold|italic" />
@@ -371,7 +371,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Take the paper in your right hand"
+        android:text="@string/paper"
         android:textAlignment="center"
         android:textSize="20dp" />
     <CheckBox
@@ -382,7 +382,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Fold it in half"
+        android:text="@string/fold"
         android:textAlignment="center"
         android:textSize="20dp" />
     <CheckBox
@@ -393,7 +393,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Put it on the floor"
+        android:text="@string/put"
         android:textAlignment="center"
         android:textSize="20dp" />
     <TextView
@@ -404,7 +404,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Do the next:"
+        android:text="@string/dothis"
         android:textAlignment="center"
         android:textSize="25dp"
         android:textStyle="bold|italic" />
@@ -416,7 +416,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Close your eyes"
+        android:text="@string/closeyou"
         android:textAlignment="center"
         android:textSize="20dp" />
     <TextView
@@ -427,7 +427,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Make up and write a sentence about anything with the length of 5 words"
+        android:text="@string/makeupwr"
         android:textAlignment="center"
         android:textSize="25dp"
         android:textStyle="bold|italic" />
@@ -436,7 +436,7 @@
         android:layout_below="@id/textMakeUp"
         android:layout_marginTop="15dp"
         android:layout_width="350dp"
-        android:hint="Sentence"
+        android:hint="@string/sentence"
         android:background="@drawable/border"
         android:layout_centerHorizontal="true"
         android:layout_height="30dp"/>
@@ -448,7 +448,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Please copy this picture"
+        android:text="@string/copypict"
         android:textAlignment="center"
         android:textSize="25dp"
         android:textStyle="bold|italic" />
@@ -468,17 +468,18 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Picture has been successfully drawn"
+        android:text="@string/picturesucc"
         android:textAlignment="center"
         android:textSize="20dp" />
 
     <Button
+        android:id="@+id/buttonSub"
         android:layout_width="176dp"
         android:layout_height="63dp"
         android:layout_below="@id/checkbox5"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:text="Submit" />
+        android:text="@string/submit" />
 </RelativeLayout>
 
 

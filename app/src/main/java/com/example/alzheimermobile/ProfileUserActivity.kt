@@ -87,4 +87,14 @@ class ProfileUserActivity : AppCompatActivity() {
         val intent = Intent(this@ProfileUserActivity, TestActivity::class.java)
         startActivity(intent)
     }
+
+    fun goToDo(view: View) {
+        val intent = Intent(this@ProfileUserActivity, ToDoActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun openNotes(view: View) {val intent = Intent(this@ProfileUserActivity, NotesActivity::class.java)
+        startActivity(intent)}
+
+
 }

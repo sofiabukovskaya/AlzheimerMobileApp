@@ -27,4 +27,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this@MainActivity, LogInActivity::class.java)
         startActivity(intent)
     }
+
+    fun go(view: View) {val intent = Intent(this@MainActivity, ToDoActivity::class.java)
+        startActivity(intent)}
+
+
 }
